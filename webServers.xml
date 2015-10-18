@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c7388dee-1234-40bf-bdef-b3c4bcefbfb7" name="rs51" url="http://10.0.4.51">
+        <fileTransfer host="10.0.4.51" port="22" rootFolder="/data0/" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
