@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <repositories>
+        <!--    <repository>
+                <id>liujikuan</id>
+                <url>http://nexus.nh.fangdd.cn/nexus</url>
+            </repository>-->
+    </repositories>
+    <groupId>my.scala.spark</groupId>
+    <artifactId>sparkContext</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <scala.version>2.10.4</scala.version>
+    </properties>
+    <dependencies>
+        <!--        <dependency>
+                    <groupId>com.twitter</groupId> <artifactId>chill_2.11</artifactId><version>0.6.0</version><scope>provided</scope>
+                </dependency>-->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.10</artifactId>
+            <version>1.4.1</version>
+            <!-- <exclusions>
+                 <exclusion>
+                     <groupId>com.twitter</groupId>
+                     <artifactId>chill_2.11</artifactId>
+                 </exclusion>
+             </exclusions>-->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.10</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-flume_2.10</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+        <!--        <dependency>
+                    <groupId></groupId>
+                    <artifactId></artifactId>
+                </dependency>-->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-kafka_2.10</artifactId>
+            <version>1.4.1</version>
+        </dependency>
+        <!--        <dependency>
+                    <groupId>mysql</groupId>
+                    <artifactId>mysql-connector-java</artifactId>
+                    <version>5.1.36</version>
+                </dependency>-->
+        <dependency>
+            <groupId>houxiaolong</groupId>
+            <artifactId>hbase_ETL</artifactId>
+            <version>0.0.1</version>
+            <!--            <scope>system</scope><systemPath>${basedir}/transform-jar-with-dependencies.jar</systemPath>-->
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <version>2.5.5</version>
+                <configuration>
+                    <!--                    <descriptorRefs>
+                                            <descriptorRef>jar-with-dependencies</descriptorRef>
+                                        </descriptorRefs>-->
+                    <descriptors>
+                        <descriptor>jar.xml</descriptor>
+                    </descriptors>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!--            <plugin>
+                            <groupId>net.alchim31.maven</groupId>
+                            <artifactId>scala-maven-plugin</artifactId>
+                            <version>3.2.0</version>
+                            <executions>
+                                <execution>
+                                    <id>compile-scala</id>
+                                    <phase>compile</phase>
+                                    <goals>
+                                        <goal>add-source</goal>
+                                        <goal>compile</goal>
+                                    </goals>
+                                </execution>
+                                <execution>
+                                    <id>test-compile-scala</id>
+                                    <phase>test-compile</phase>
+                                    <goals>
+                                        <goal>add-source</goal>
+                                        <goal>testCompile</goal>
+                                    </goals>
+                                </execution>
+                            </executions>
+                            <configuration>
+                                <scalaVersion>${scala.version}</scalaVersion>
+                            </configuration>
+                        </plugin>-->
+            <!--            <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-install-plugin</artifactId>
+                            <version>2.5.2</version>
+                            <executions>
+                                <execution>
+                                    <id>install-external</id>
+                                    <phase>clean</phase>
+                                    <configuration>
+                                        <file>${basedir}/transform-jar-with-dependencies.jar</file>
+                                        <repositoryLayout>default</repositoryLayout>
+                                        <groupId>houxiaolong</groupId>
+                                        <artifactId>hbase_ETL</artifactId>
+                                        <version>0.0.1</version>
+                                        <packaging>jar</packaging>
+                                        <generatePom>true</generatePom>
+                                    </configuration>
+                                    <goals>
+                                        <goal>install-file</goal>
+                                    </goals>
+                                </execution>
+                            </executions>
+                        </plugin>-->
+            <!--           <plugin>&lt;!&ndash;这是饶刚的插件,经测试有问题&ndash;&gt;
+               <groupId>org.scala-tools</groupId>
+               <artifactId>maven-scala-plugin</artifactId>
+               <version>2.9.1</version>
+               <executions>
+                   <execution>
+                       <id>scala-compile-first</id>
+                       <phase>process-resources</phase>
+                       <goals>
+                           <goal>compile</goal>
+                       </goals>
+                   </execution>
+                   <execution>
+                       <id>scala-test-compile</id>
+                       <phase>process-test-resources</phase>
+                       <goals>
+                           <goal>testCompile</goal>
+                       </goals>
+                   </execution>
+               </executions>
+           </plugin>-->
+        </plugins>
+    </build>
+</project>
