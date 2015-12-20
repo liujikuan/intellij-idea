@@ -16,6 +16,7 @@
         <root url="jar://D:/DevelopmentSoftware/scala/lib/scala-reflect.jar!/" />
         <root url="jar://D:/DevelopmentSoftware/scala/lib/scala-swing_2.11-1.0.2.jar!/" />
         <root url="jar://D:/DevelopmentSoftware/scala/lib/scala-xml_2.11-1.0.4.jar!/" />
+        <root url="jar://D:/DevelopmentSoftware/scala/lib/akka-actor_2.11-2.3.10.jar!/" />
       </CLASSES>
       <JAVADOC>
         <root url="jar://D:/DevelopmentSoftware/scala/api/jars/scala-actors-2.11.0-javadoc.jar!/" />
