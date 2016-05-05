@@ -103,4 +103,16 @@
       <option name="ENABLED" value="true" />
     </filter>
   </component>
+  <component name="SvnApplicationSettings">
+    <option name="myCheckoutURLs">
+      <list>
+        <option value="https://192.168.0.193/svn/test/公安事业部/26.wifi/02.code/ga-mass/ga-mass-streaming" />
+      </list>
+    </option>
+    <option name="myTypedURLs">
+      <list>
+        <option value="https://192.168.0.193/svn/test/公安事业部/26.wifi/02.code/ga-mass/ga-mass-streaming" />
+      </list>
+    </option>
+  </component>
 </application>
