@@ -103,6 +103,9 @@
       <option name="ENABLED" value="true" />
     </filter>
   </component>
+  <component name="RefactoringSettings">
+    <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
+  </component>
   <component name="SvnApplicationSettings">
     <option name="myCheckoutURLs">
       <list>
