@@ -3,7 +3,7 @@
     <option name="customScope" value="selection" />
     <option name="defaultScopeName" value="selection" />
     <option name="SEARCH_SCOPE" value="selection" />
-    <option name="FILE_MASK" value="*.xml" />
+    <option name="FILE_MASK" value="*.*" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
@@ -14,6 +14,7 @@
       <mask>*.css</mask>
       <mask>*.mxml</mask>
       <mask>*.xml</mask>
+      <mask>*.*</mask>
     </recentFileMasks>
   </component>
 </application>
