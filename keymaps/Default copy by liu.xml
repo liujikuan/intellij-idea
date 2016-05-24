@@ -1,10 +1,9 @@
 <keymap version="1" name="Default copy by liu" parent="$default">
-  <action id="CodeCompletion">
-    <keyboard-shortcut first-keystroke="ctrl space" />
-    <keyboard-shortcut first-keystroke="ctrl alt slash" />
-  </action>
   <action id="FixDocComment">
     <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
