@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project 'MysqlSink'" />
-    <option name="defaultScopeName" value="Project 'MysqlSink'" />
-    <option name="SEARCH_SCOPE" value="Project 'MysqlSink'" />
+    <option name="customScope" value="Project 'rzx'" />
+    <option name="defaultScopeName" value="Project 'rzx'" />
+    <option name="SEARCH_SCOPE" value="Project 'rzx'" />
     <option name="FILE_MASK" value="*.*" />
     <recentFileMasks>
       <mask>*.html</mask>
