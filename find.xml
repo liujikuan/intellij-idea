@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Project and Libraries" />
-    <option name="defaultScopeName" value="Project and Libraries" />
-    <option name="SEARCH_SCOPE" value="Project and Libraries" />
+    <option name="customScope" value="Module 'ga-mass-tools-iquery'" />
+    <option name="defaultScopeName" value="Module 'ga-mass-tools-iquery'" />
+    <option name="SEARCH_SCOPE" value="Module 'ga-mass-tools-iquery'" />
     <option name="FILE_MASK" value="*.*" />
     <recentFileMasks>
       <mask>*.html</mask>
