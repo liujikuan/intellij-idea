@@ -119,9 +119,6 @@
       <option name="ENABLED" value="true" />
     </filter>
   </component>
-  <component name="ExternalResourceManagerImpl">
-    <resource url="http://maven.apache.org/plugins/maven-assembly-plugin/assembly/1.1.2" location="D:/downloads/Development/assembly-1.1.2.xsd" />
-  </component>
   <component name="RefactoringSettings">
     <option name="MOVE_PREVIEW_USAGES" value="false" />
     <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
