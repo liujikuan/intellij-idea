@@ -1,8 +1,5 @@
 <application>
   <component name="ScratchFileService">
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" value="JAVA" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.scala" value="Scala" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.scala" value="Scala" />
-    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_12" value="JAVA" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.xml" value="XML" />
   </component>
 </application>
