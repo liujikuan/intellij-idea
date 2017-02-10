@@ -42,7 +42,6 @@
       <entry key="CommitDialog">
         <PlaceSettings>
           <option name="IGNORE_POLICY" value="TRIM_WHITESPACES" />
-          <option name="EXPAND_BY_DEFAULT" value="false" />
         </PlaceSettings>
       </entry>
       <entry key="Default">
