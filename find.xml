@@ -3,7 +3,7 @@
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*dao.java" />
+    <option name="FILE_MASK" value="*xml" />
     <recentFileMasks>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
@@ -31,6 +31,7 @@
       <mask>*dao</mask>
       <mask>*dao.jav</mask>
       <mask>*dao.java</mask>
+      <mask>*xml</mask>
     </recentFileMasks>
   </component>
 </application>
