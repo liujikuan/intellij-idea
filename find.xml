@@ -2,35 +2,22 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="regularExpressions" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
     <recentFileMasks>
+      <mask>*.properties</mask>
       <mask>*.html</mask>
       <mask>*.jsp</mask>
-      <mask>*.java</mask>
+      <mask>*.xml</mask>
       <mask>*.js</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.properties</mask>
-      <mask>*.*=</mask>
       <mask>*.*</mask>
-      <mask>*.x,mk</mask>
-      <mask>*.x,m</mask>
-      <mask>*.x,</mask>
-      <mask>*.xnk</mask>
-      <mask>*.xn</mask>
-      <mask>*.x</mask>
-      <mask>*.xm</mask>
-      <mask>*.xml</mask>
-      <mask>*da.xml</mask>
-      <mask>*dao.xml</mask>
-      <mask>*dao.xm</mask>
-      <mask>*dao.x</mask>
-      <mask>*dao.</mask>
-      <mask>*dao</mask>
-      <mask>*dao.jav</mask>
-      <mask>*dao.java</mask>
-      <mask>*xml</mask>
+      <mask>*.</mask>
+      <mask>*.jav</mask>
+      <mask>*.java</mask>
     </recentFileMasks>
   </component>
 </application>
